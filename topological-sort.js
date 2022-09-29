@@ -16,7 +16,7 @@ for (let key in graph) {
         countIn[val]++;
     }
 }
-console.log(countIn)
+
 let queue = []; 
 for (let key in countIn) {
     if (countIn[key] === 0) queue.push(key); // push keys that have nothing incoming 
