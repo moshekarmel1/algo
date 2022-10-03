@@ -20,14 +20,14 @@ let paths = [
 ];
 // assume it take Infinity time for each path by default
 let times = Array(n).fill(Infinity);
+let copy = Array(n).fill(Infinity);
 times[start] = 0; // start takes 0
-// Create a copy of the array and run choose the min val
+// run the logic to choose the min val
 for (let i = 0; i < n - 1; i++) {
-    let copy = [...times]
     for (let [source, dest, weight] of paths) {
-        copy[dest] = Math.min(copy[dest], times[source] + weight);    
+        times[dest] = Math.min(times[dest], copy[source] + weight);    
     }
-    times = [...copy];
+    copy = [...times];
 }
 
 console.log(times[end]) // prints 13 which is the fastest path from node 0 -> node 3
