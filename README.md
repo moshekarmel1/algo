@@ -8,3 +8,5 @@ Learn you some algorithms for great good!
 3. [Binary Search](/binary-search.js)
 4. [Heap / Priority Queue](/heap.js)
 5. [Topological Sort](/topological-sort.js)
+6. [Djikstra's Algorithm (shortest path in graph)](/djikstra.js)
+7. [Bellman-Ford Algorithm (shortest path in graph)](/bellman-ford.js)
