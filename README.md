@@ -10,3 +10,4 @@ Learn you some algorithms for great good!
 5. [Topological Sort](/topological-sort.js)
 6. [Djikstra's Algorithm (shortest path in graph)](/djikstra.js)
 7. [Bellman-Ford Algorithm (shortest path in graph)](/bellman-ford.js)
+8. [Union Find (Disjoint Sets)](/union-find.js)
