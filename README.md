@@ -11,3 +11,5 @@ Learn you some algorithms for great good!
 6. [Djikstra's Algorithm (shortest path in graph)](/djikstra.js)
 7. [Bellman-Ford Algorithm (shortest path in graph)](/bellman-ford.js)
 8. [Union Find (Disjoint Sets)](/union-find.js)
+9. [Prefix Sum](/prefix-sum.js)
+10. [Kadane's Algorithm (Max Subarray)](/kadanes.js)

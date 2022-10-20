@@ -1,4 +1,4 @@
-// Topological Sort a.k.a. Kahn's Algorithm
+// Topological Sort a.k.a. Kahn's Algorithm, helps you walk through a graph in an ideal way
 // Topological sorting only works for graphs that do not contain a cycle (acyclical)
 // And we also need a starting node with zero dependencies
 let graph = {
