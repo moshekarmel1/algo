@@ -14,6 +14,7 @@ for (let word of words) {
         }
         root = root[char];
     }
+    root.isWord = true;
 }
 console.log(trie);
 
@@ -21,14 +22,14 @@ console.log(trie);
 const has = (word) => {
     let root = trie;
     for (let char of word) {
-        if (root[char]) {
-            root = root[char];
-        } else {
+        root = root[char];
+        if (!root) {
             return false;
         }
     }
-    return true;
+    return !!root.isWord;
 }
 
 console.log(has('apple')); // true
-console.log(has('applesauce')); // false
+console.log(has('appl')); // exists, but is not a word end, so false
+console.log(has('apples')); // false
