@@ -14,3 +14,4 @@ Learn you some algorithms for great good!
 9. [Prefix Sum](/prefix-sum.js)
 10. [Kadane's Algorithm (Max Subarray)](/kadanes.js)
 11. [Trie (Prefix Tree)](/trie.js)
+12. [Linked List](/linked-list.js)
