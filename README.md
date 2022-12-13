@@ -15,3 +15,4 @@ Learn you some algorithms for great good!
 10. [Kadane's Algorithm (Max Subarray)](/kadanes.js)
 11. [Trie (Prefix Tree)](/trie.js)
 12. [Linked List](/linked-list.js)
+13. [Backtracking](/backtracking.js)
