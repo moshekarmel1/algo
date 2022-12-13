@@ -16,3 +16,4 @@ Learn you some algorithms for great good!
 11. [Trie (Prefix Tree)](/trie.js)
 12. [Linked List](/linked-list.js)
 13. [Backtracking](/backtracking.js)
+14. [Dynamic Programming](/dp.js)
