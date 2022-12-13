@@ -1,7 +1,6 @@
 // Dynamic Programming is taking large problems, and breaking them down into small problems
 // there are 2 flavors, "Top-down" & "Bottom-up"
 // for example, how many way can you get to the top of a staircase of n steps taking 1 or 2 steps at a time?
-// 
 
 const n = 8;
 // 1. Top Down w/ Memoization
@@ -23,7 +22,7 @@ const climbStairsTD = (n) => {
 console.log(climbStairsTD(n)); // logs 34
 // 2. Bottom Up
 const climbStairsBU = (n) => {
-    let dp = [0, 1, 2];
+    let dp = [0, 1, 2]; // base cases for step 1, 2, 3
     for (let i = 3; i <= n; i++) {
         dp[i] = dp[i - 1] + dp[i - 2]
     }
