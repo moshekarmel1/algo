@@ -17,3 +17,4 @@ Learn you some algorithms for great good!
 12. [Linked List](/linked-list.js)
 13. [Backtracking](/backtracking.js)
 14. [Dynamic Programming](/dp.js)
+15. [Fenwick Tree / Binary Indexed Tree](/fenwick.js)
