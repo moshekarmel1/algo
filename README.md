@@ -18,3 +18,5 @@ Learn you some algorithms for great good!
 13. [Backtracking](/backtracking.js)
 14. [Dynamic Programming](/dp.js)
 15. [Fenwick Tree / Binary Indexed Tree](/fenwick.js)
+16. [Doubly Linked List](/dll.js)
+16. [Merge Sort](/merge.js)

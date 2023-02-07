@@ -4,16 +4,14 @@
 // and figuring out where to put each value prior to inserting it
 let arr = [];
 const binSearchGetIndex = (val) => {
-    if (arr.length === 0) return 0;
-    if (arr.length === 1) return val > arr[0] ? 1 : 0;
     let low = 0;
     let high = arr.length - 1;
-    while (low <= high) {
+    while (low < high) {
         let mid = (low + high) >> 1;
         if (val > arr[mid]) {
             low = mid + 1;
         } else {
-            high = mid - 1;
+            high = mid;
         }
     }
     return low;

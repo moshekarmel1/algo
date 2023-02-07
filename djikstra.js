@@ -29,16 +29,14 @@ for (let [source, dest, weight] of paths) {
 // Create a Min Heap using Binary Search
 let heap = [[start, 0]]; // start the queue with the start using wight 0 bec we're already there
 const binSearchGetIndex = (val) => {
-    if (heap.length === 0) return 0;
-    if (heap.length === 1) return val > heap[0][1] ? 1 : 0;
     let low = 0;
     let high = heap.length - 1;
-    while (low <= high) {
+    while (low < high) {
         let mid = (low + high) >> 1;
         if (val > heap[mid][1]) {
             low = mid + 1;
         } else {
-            high = mid - 1;
+            high = mid;
         }
     }
     return low;
