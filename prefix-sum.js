@@ -1,7 +1,7 @@
 // In computer science, the prefix sum, cumulative sum, inclusive scan, or simply scan of a sequence of numbers 
 // is a second sequence of numbers, the sums of prefixes (running totals) of the input sequence, e.g. 
-// input numbers	 1	 2	 3	 4	 5	 6
-// prefix sums	     1   3	 6	10	15	21
+// input numbers 1   2  3   4   5   6
+// prefix sums   1   3  6   10  15  21
 
 let arr = [ 10, 4, 16, 20 ];
 let n = arr.length;
