@@ -5,7 +5,7 @@
 let arr = [];
 const binSearchGetIndex = (val) => {
     let low = 0;
-    let high = arr.length - 1;
+    let high = arr.length;
     while (low < high) {
         let mid = (low + high) >> 1;
         if (val > arr[mid]) {
